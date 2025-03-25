@@ -1,0 +1,95 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('../assets/home2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .home-box {
+    background-color: rgba(46, 44, 44, 0.7);
+    padding: 5rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+
+  }
+  
+  .home-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .home-text {
+    color: #c3c3c3;
+    margin-bottom: 20px;
+  }
+  
+  .home-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .home-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    width: 80%;
+    max-width: 300px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .login-button {
+    background-color: #2563eb;
+    color: white;
+  }
+  
+  .login-button:hover {
+    background-color: #1e40af;
+  }
+  
+  .register-button {
+    background-color: #16a34a;
+    color: white;
+  }
+  
+  .register-button:hover {
+    background-color: #0f8c38;
+  }
+  
+
+  @media (max-width: 600px) {
+    .home-box {
+      padding: 1.5rem;
+      width: 90%;
+    }
+  
+    .home-title {
+      font-size: 1.5rem;
+    }
+  
+    .home-button {
+      font-size: 0.9rem;
+      padding: 8px;
+    }
+  }
+  
