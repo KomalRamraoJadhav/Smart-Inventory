@@ -1,5 +1,5 @@
 # Smart Inventory & Expiry Tracker
-A web-based application to manage inventory, track product quantities, and monitor expiry dates with features like pagination, barcode scanning, and easy CRUD operations.
+A web-based application to manage inventory, track product quantities, and monitor expiry dates with features like pagination and easy CRUD operations.
 
 Technologies Used
 Frontend: React (React Router, Context API, Axios, Tailwind CSS)
